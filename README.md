@@ -95,6 +95,7 @@ To test the app:
 ---
 
  **Author**
+ salman
 
 Salman 
 University at Albany  
