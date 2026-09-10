@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#task-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#task-list {
+    max-width: 600px;
+    margin: auto;
+}
+
+.task {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.priority-low {
+    color: green;
+    font-weight: bold;
+}
+
+.priority-medium {
+    color: orange;
+    font-weight: bold;
+}
+
+.priority-high {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    margin-left: 10px;
+}
